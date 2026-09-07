@@ -333,6 +333,20 @@ titles:
         scope: "main_cast"
     contradiction_flag: false
     verdict_note: "Нормально, але дитячий майндгейм не дотягує до дорослих інтриг."
+  - id: "T-12-ANGRY-MEN"
+    title: "12 злих чоловіків"
+    medium: "film"
+    overall_score: 8.8
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.85
+        scope: "jury_members"
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.7
+        scope: "case_analysis"
+    contradiction_flag: false
+    verdict_note: "Реалістична групова динаміка без картонних персонажів, детальний поетапний аналіз ситуації."
+
 
 evolution_log: []
 
