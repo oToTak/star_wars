@@ -392,6 +392,31 @@ titles:
         scope: "narrowed_scope"
     contradiction_flag: false
     verdict_note: "Звузилося до окремих справ на серію без ширшої картини світу — можливо, тайтл такого типу, що заходить лише один раз."
+  - id: "T-BARTENDER"
+    title: "Бармен (Bartender)"
+    medium: "anime"
+    overall_score: 8.7
+    axiom_links:
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 0.55
+        scope: "client_emotions"
+    contradiction_flag: false
+    verdict_note: "Давно переглянуто, спогади розмиті, але тоді дуже сподобалось дослідження емоцій клієнтів через ідеальний коктейль."
+
+  - id: "T-UNDEAD-UNLUCK"
+    title: "Немертвий і невдача (Undead Unluck)"
+    medium: "anime"
+    overall_score: 8.4
+    axiom_links:
+      - axiom_id: "AX-CREATIVE-COMBAT"
+        match_strength: 0.8
+        scope: "power_usage"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.75
+        scope: "romance_development"
+    contradiction_flag: false
+    verdict_note: "Креативні сили замість банальної сили, плавний і поступовий розвиток романтичної лінії — не штучна мелодрама."
+
 
 
 
