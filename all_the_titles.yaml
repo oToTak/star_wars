@@ -348,6 +348,24 @@ titles:
     contradiction_flag: false
     verdict_note: "Реалістична групова динаміка без картонних персонажів, детальний поетапний аналіз ситуації."
 
+  - id: "T-LOTR"
+    title: "Володар перснів (аудіокнига)"
+    medium: "audiobook"
+    overall_score: 9.7
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.95
+        scope: "fellowship_daily_routine"
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 0.85
+        scope: "ring_temptation_gradient"
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.75
+        scope: "council_and_fellowship_planning"
+    contradiction_flag: false
+    verdict_note: "Буденність подорожі показана настільки детально, що відчувається реальність побуту. Персонажі вибудувані через їхню різну стійкість до влади персня. Тактика Ради та розподіл Братства сподобались, але без гостроти рівня Code Geass. Романтика непомітна, бої не вразили — нейтрально."
+
+
 
 evolution_log: []
 
