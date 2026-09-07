@@ -1,0 +1,342 @@
+meta:
+  schema_version: "1.0"
+  last_updated: "2026-09-06"
+  maturity: "stable"
+
+core_axioms:
+  - id: "AX-ORGANIC-CHARS"
+    label: "Органічність та суб'єктність"
+    polarity: "love"
+    intensity: 1.0
+    domain: ["character_writing", "worldbuilding"]
+    description: "Персонажі мають власну рутину, звички та логіку дій незалежно від потреб сюжету. Вони відчуваються живими людьми з об'єктною постійністю."
+    exemplars_positive: ["T-STEINS-GATE", "T-TED-LASSO", "T-SAMURAI-CHAMPLOO", "T-1923"]
+    exemplars_negative: ["T-PROMISED-NEVERLAND"]
+    status: "active"
+
+  - id: "AX-INTELLECT-STRAT"
+    label: "Інтелект і стратегія"
+    polarity: "love"
+    intensity: 0.9
+    domain: ["plot_structure", "conflict_resolution"]
+    description: "Багаторівневі плани, інтриги, тактичне та креативне використання здібностей замість грубої сили, змагальна логіка. Довіра до компетентного інтелектуального якоря (ГГ)."
+    exemplars_positive: ["T-CODE-GEASS", "T-PING-PONG", "T-FIVE-LITTLE-PIGS"]
+    exemplars_negative: ["T-PROMISED-NEVERLAND", "T-ICELANDIC-NOIR"]
+    status: "active"
+
+  - id: "AX-PSYCH-DEPTH"
+    label: "Психологія та незбагненне"
+    polarity: "love"
+    intensity: 0.85
+    domain: ["theme", "character_writing"]
+    description: "Дослідження того, як формується розум (через травми/досвід), або зіткнення з інтелектуально вищим чи абсолютно незбагненним."
+    exemplars_positive: ["T-MONSTER", "T-ALGERNON"]
+    exemplars_negative: []
+    status: "active"
+
+  - id: "AX-FORCED-MELO"
+    label: "Штучна мелодрама"
+    polarity: "hate"
+    intensity: -1.0
+    domain: ["character_writing", "directing", "music"]
+    description: "Награні емоції, надмірне ниття, маніпулятивне нав'язування почуттів глядачу через музику, монтаж або пафосні діалоги. Дратуючі, нелогічні романтичні лінії."
+    exemplars_positive: ["T-RE-ZERO", "T-VIOLET-EVERGARDEN", "T-ICELANDIC-NOIR"]
+    exemplars_negative: []
+    status: "active"
+
+  - id: "AX-CREATIVE-COMBAT"
+    label: "Креативна тактика замість сили"
+    polarity: "love"
+    intensity: 0.95
+    domain: ["action", "conflict_resolution"]
+    description: "Перемога над сильнішим ворогом через інтелект, креативне використання здібностей (хамон) або психологічний тиск, а не через те, що герой 'просто сильний' чи має плот-армор."
+    exemplars_positive: ["T-JOJO-P2", "T-ONE-OUTS", "T-SAMURAI-CHAMPLOO"]
+    exemplars_negative: ["T-COWBOY-BEBOP"]
+    status: "active"
+
+  - id: "AX-PRESSURE-ON-MC"
+    label: "Моральний тиск на героя"
+    polarity: "love"
+    intensity: 0.85
+    domain: ["character_arc", "plot_structure"]
+    description: "Герой розвивається або ламається під впливом колосального зовнішнього чи психологічного тиску, і за цим цікаво спостерігати."
+    exemplars_positive: ["T-MONSTER", "T-CODE-GEASS", "T-1984"]
+    exemplars_negative: []
+    status: "active"
+
+  - id: "AX-ARTIFICIAL-MYSTERY"
+    label: "Штучне закручування сюжету"
+    polarity: "hate"
+    intensity: -0.7
+    domain: ["plot_structure"]
+    description: "Історія виглядає як штучний 'mystery-box', де автор просто накидає несподівані повороти заради ефекту, замість того щоб органічно і лаконічно нашаровувати їх (як у Monster)."
+    exemplars_positive: ["T-ODD-TAXI"]
+    exemplars_negative: []
+    status: "active"
+
+titles:
+  - id: "T-STEINS-GATE"
+    title: "Steins;Gate"
+    medium: "anime"
+    overall_score: 10.0
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 1.0
+        scope: "main_cast"
+        note: "Ідеальна рутина лабораторії, кожен має свої дивацтва і впливає на динаміку."
+    contradiction_flag: false
+    verdict_note: "Непереможний переможець 11/10. Персонажі існують ніби незалежно від сюжету."
+
+  - id: "T-MONSTER"
+    title: "Monster"
+    medium: "anime"
+    overall_score: 10.0
+    axiom_links:
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 1.0
+        scope: "entire_cast"
+      - axiom_id: "AX-PRESSURE-ON-MC"
+        match_strength: 1.0
+        scope: "main_character"
+    contradiction_flag: false
+    verdict_note: "Геніальне аніме. Лаконічне нашарування історії без штучних поворотів."
+
+  - id: "T-CODE-GEASS"
+    title: "Code Geass"
+    medium: "anime"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 1.0
+        scope: "main_plot"
+    contradiction_flag: false
+    verdict_note: "Геніальна історія та конструювання подій. Мінус — слабші другорядні персонажі та сексуалізація."
+
+  - id: "T-PING-PONG"
+    title: "Ping Pong the Animation"
+    medium: "anime"
+    overall_score: 9.5
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.9
+        scope: "character_growth"
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.9
+        scope: "tournament_arc"
+    contradiction_flag: false
+    verdict_note: "Супер топ. Глибокі персонажі, викликає ностальгію за турнірною логікою."
+
+  - id: "T-SAMURAI-CHAMPLOO"
+    title: "Samurai Champloo"
+    medium: "anime"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 1.0
+        scope: "main_trio"
+      - axiom_id: "AX-CREATIVE-COMBAT"
+        match_strength: 0.9
+        scope: "battles"
+    contradiction_flag: false
+
+  - id: "T-JOJO-P2"
+    title: "JoJo's Bizarre Adventure (Part 2)"
+    medium: "anime"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-CREATIVE-COMBAT"
+        match_strength: 1.0
+        scope: "battles"
+    contradiction_flag: false
+
+  - id: "T-ONE-OUTS"
+    title: "One Outs"
+    medium: "anime"
+    overall_score: 8.5
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 1.0
+        scope: "mind_games"
+    contradiction_flag: false
+
+  - id: "T-VINLAND-SAGA"
+    title: "Vinland Saga"
+    medium: "anime"
+    overall_score: 7.5
+    axiom_links:
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 0.6
+        scope: "season_2"
+    contradiction_flag: false
+
+  - id: "T-CYBERPUNK-EDGERUNNERS"
+    title: "Cyberpunk: Edgerunners"
+    medium: "anime"
+    overall_score: 7.0
+    axiom_links:
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 0.5
+        scope: "plot_ending"
+    contradiction_flag: false
+
+  - id: "T-ODD-TAXI"
+    title: "Odd Taxi"
+    medium: "anime"
+    overall_score: 7.0
+    axiom_links:
+      - axiom_id: "AX-ARTIFICIAL-MYSTERY"
+        match_strength: 1.0
+        scope: "plot_twists"
+    contradiction_flag: false
+
+  - id: "T-COWBOY-BEBOP"
+    title: "Cowboy Bebop"
+    medium: "anime"
+    overall_score: 6.0
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.5
+        scope: "plot_armor"
+    contradiction_flag: false
+    verdict_note: "Дропнув. Не вистачило логіки розвитку порівняно з Champloo."
+
+  - id: "T-FRIEREN"
+    title: "Frieren"
+    medium: "anime"
+    overall_score: 7.0
+    axiom_links:
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 0.3
+        scope: "atmosphere"
+    contradiction_flag: false
+
+  - id: "T-RE-ZERO"
+    title: "Re:Zero"
+    medium: "anime"
+    overall_score: 4.0
+    axiom_links:
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 1.0
+        scope: "character_interactions"
+    contradiction_flag: false
+
+  - id: "T-VIOLET-EVERGARDEN"
+    title: "Violet Evergarden"
+    medium: "anime"
+    overall_score: 4.0
+    axiom_links:
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 1.0
+        scope: "main_character"
+    contradiction_flag: false
+
+  - id: "T-1923"
+    title: "1923"
+    medium: "series"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 1.0
+        scope: "family_routine"
+    contradiction_flag: false
+
+  - id: "T-TED-LASSO"
+    title: "Ted Lasso"
+    medium: "series"
+    overall_score: 8.5
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.9
+        scope: "group_dynamics"
+    contradiction_flag: false
+
+  - id: "T-SHRINKING"
+    title: "Зменшення (Shrinking)"
+    medium: "series"
+    overall_score: 7.5
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.8
+        scope: "character_banter"
+    contradiction_flag: false
+    verdict_note: "Приємна штука, що змушує посміхатися, але останній сезон просів."
+
+  - id: "T-ALGERNON"
+    title: "Квіти для Елджернона"
+    medium: "book"
+    overall_score: 9.5
+    axiom_links:
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 1.0
+        scope: "theme"
+    contradiction_flag: false
+
+  - id: "T-FIVE-LITTLE-PIGS"
+    title: "П'ятеро поросят (Агата Крісті)"
+    medium: "audiobook"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.9
+        scope: "investigation_process"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.8
+        scope: "multiple_perspectives"
+    contradiction_flag: false
+    verdict_note: "Всесильний детектив, який не помиляється. Дуже задовільний логічний фокус."
+
+  - id: "T-1984"
+    title: "1984"
+    medium: "book"
+    overall_score: 9.0
+    axiom_links:
+      - axiom_id: "AX-PRESSURE-ON-MC"
+        match_strength: 1.0
+        scope: "world_rules"
+    contradiction_flag: false
+
+  - id: "T-ICELANDIC-NOIR"
+    title: "Біла смерть / Білий спокій (Ісландські детективи)"
+    medium: "audiobook"
+    overall_score: 6.5
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: -0.6
+        scope: "mystery_focus"
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 0.7
+        scope: "romantic_subplot"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.4
+        scope: "side_characters"
+    contradiction_flag: false
+    verdict_note: "Реалістично, але бракує глибини персонажів і розмитий детективний фокус."
+
+  - id: "T-MORT"
+    title: "Морт (Террі Пратчетт)"
+    medium: "audiobook"
+    overall_score: 5.0
+    axiom_links: []
+    contradiction_flag: false
+    verdict_note: "Дропнув через жанровий дисонанс: очікував фантастики, а не фентезі."
+
+  - id: "T-PROMISED-NEVERLAND"
+    title: "The Promised Neverland (Season 1)"
+    medium: "anime"
+    overall_score: 6.5
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: -0.5
+        scope: "mind_games"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.4
+        scope: "main_cast"
+    contradiction_flag: false
+    verdict_note: "Нормально, але дитячий майндгейм не дотягує до дорослих інтриг."
+
+evolution_log: []
+
+resolution_policy:
+  recency_bias: 0.7
+  on_contradiction: "При виявленні суперечності виставити contradiction_flag: true. Не змінювати існуючі axioms різко, а запитати користувача про ізольований нюанс (scope)."
+  on_missing_data: "Якщо відгук не містить даних для існуючих axioms, запитати уточнення, перш ніж генерувати нове правило в core_axioms."
