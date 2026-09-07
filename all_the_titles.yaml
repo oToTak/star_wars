@@ -333,6 +333,7 @@ titles:
         scope: "main_cast"
     contradiction_flag: false
     verdict_note: "Нормально, але дитячий майндгейм не дотягує до дорослих інтриг."
+
   - id: "T-12-ANGRY-MEN"
     title: "12 злих чоловіків"
     medium: "film"
