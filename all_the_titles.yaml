@@ -365,6 +365,35 @@ titles:
     contradiction_flag: false
     verdict_note: "Буденність подорожі показана настільки детально, що відчувається реальність побуту. Персонажі вибудувані через їхню різну стійкість до влади персня. Тактика Ради та розподіл Братства сподобались, але без гостроти рівня Code Geass. Романтика непомітна, бої не вразили — нейтрально."
 
+  - id: "T-APOTHECARY-DIARIES-S1"
+    title: "Монолог травниці (сезон 1)"
+    medium: "anime"
+    overall_score: 8.3
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.85
+        scope: "case_history_and_worldbuilding"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.75
+        scope: "world_with_its_own_history"
+    contradiction_flag: false
+    verdict_note: "Детективна атмосфера працювала на рівні цілого світу — кожна справа мала власну історію, і цікаво було досліджувати як влаштований світ загалом."
+
+  - id: "T-APOTHECARY-DIARIES-S2-S3"
+    title: "Монолог травниці (сезони 2-3)"
+    medium: "anime"
+    overall_score: 7.3
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.55
+        scope: "single_episode_mysteries"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.3
+        scope: "narrowed_scope"
+    contradiction_flag: false
+    verdict_note: "Звузилося до окремих справ на серію без ширшої картини світу — можливо, тайтл такого типу, що заходить лише один раз."
+
+
 
 
 evolution_log: []
