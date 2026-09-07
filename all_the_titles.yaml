@@ -340,16 +340,3 @@ resolution_policy:
   recency_bias: 0.7
   on_contradiction: "При виявленні суперечності виставити contradiction_flag: true. Не змінювати існуючі axioms різко, а запитати користувача про ізольований нюанс (scope)."
   on_missing_data: "Якщо відгук не містить даних для існуючих axioms, запитати уточнення, перш ніж генерувати нове правило в core_axioms."
-  - id: "T-12-ANGRY-MEN"
-    title: "12 злих чоловіків"
-    medium: "film"
-    overall_score: 8.8
-    axiom_links:
-      - axiom_id: "AX-ORGANIC-CHARS"
-        match_strength: 0.85
-        scope: "jury_members"
-      - axiom_id: "AX-INTELLECT-STRAT"
-        match_strength: 0.7
-        scope: "case_analysis"
-    contradiction_flag: false
-    verdict_note: "Реалістична групова динаміка без картонних персонажів, детальний поетапний аналіз ситуації."
