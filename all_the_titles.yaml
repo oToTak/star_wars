@@ -462,6 +462,24 @@ titles:
     contradiction_flag: false
     verdict_note: "Атмосфера подорожі на початку дуже сподобалась. Заплутаність фактів навмисна і працює на розкриття історії родини. Дванадцять персонажів важко запам'ятати всіх. Фінальне рішення Пуаро приховати правду показує його людяність і байдужість до абстрактної справедливості, а не силу дедукції."
 
+  - id: "T-DEATH-PARADE"
+    title: "Парад смерті (Death Parade)"
+    medium: "anime"
+    overall_score: 7.9
+    axiom_links:
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.75
+        scope: "three_main_characters"
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 0.5
+        scope: "emotional_peak_concept"
+      - axiom_id: "AX-FORCED-MELO"
+        match_strength: 0.4
+        scope: "overall_tone"
+    contradiction_flag: false
+    verdict_note: "Класна задумка — демонстрація 'смертників' на піку емоцій через трьох живих персонажів, але концентрація на емоціях не завжди повністю вдається, є помірна награність. Тайтл не надто запам'ятався."
+
+
 evolution_log: []
 
 resolution_policy:
