@@ -74,6 +74,16 @@ core_axioms:
     exemplars_negative: []
     status: "active"
 
+  - id: "AX-JOURNEY-ATMOSPHERE"
+    label: "Атмосфера подорожі"
+    polarity: "love"
+    intensity: 0.75
+    domain: ["setting", "atmosphere"]
+    description: "Відчуття дороги, руху, дух подорожі як самостійна естетична цінність, незалежно від сюжету чи персонажів."
+    exemplars_positive: ["T-LOTR", "T-MONSTER"]
+    exemplars_negative: []
+    status: "active"
+
 titles:
   - id: "T-STEINS-GATE"
     title: "Steins;Gate"
@@ -420,6 +430,37 @@ titles:
 
 
 
+
+  - id: "T-ROGER-ACKROYD"
+    title: "Вбивство Роджера Екройда"
+    medium: "audiobook"
+    overall_score: 8.1
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.5
+        scope: "investigation_process"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.5
+        scope: "ensemble_cast"
+    contradiction_flag: false
+    verdict_note: "Дуже повільний вступ (~година), який нічого не додав до розуміння персонажів. Розв'язка неочікувана і класна. Пуаро занадто часто хизується непогрішністю, це трохи дратує."
+
+  - id: "T-ORIENT-EXPRESS"
+    title: "Вбивство у Східному експресі"
+    medium: "audiobook"
+    overall_score: 8.5
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.5
+        scope: "investigation_process"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.3
+        scope: "ensemble_cast"
+      - axiom_id: "AX-JOURNEY-ATMOSPHERE"
+        match_strength: 0.85
+        scope: "opening_atmosphere"
+    contradiction_flag: false
+    verdict_note: "Атмосфера подорожі на початку дуже сподобалась. Заплутаність фактів навмисна і працює на розкриття історії родини. Дванадцять персонажів важко запам'ятати всіх. Фінальне рішення Пуаро приховати правду показує його людяність і байдужість до абстрактної справедливості, а не силу дедукції."
 
 evolution_log: []
 
