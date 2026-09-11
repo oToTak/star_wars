@@ -100,7 +100,7 @@ titles:
   - id: "T-MONSTER"
     title: "Monster"
     medium: "anime"
-    overall_score: 10.0
+    overall_score: 9.9
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 1.0
@@ -114,7 +114,7 @@ titles:
   - id: "T-CODE-GEASS"
     title: "Code Geass"
     medium: "anime"
-    overall_score: 9.0
+    overall_score: 9.6
     axiom_links:
       - axiom_id: "AX-INTELLECT-STRAT"
         match_strength: 1.0
@@ -125,7 +125,7 @@ titles:
   - id: "T-PING-PONG"
     title: "Ping Pong the Animation"
     medium: "anime"
-    overall_score: 9.5
+    overall_score: 9.7
     axiom_links:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 0.9
@@ -139,7 +139,7 @@ titles:
   - id: "T-SAMURAI-CHAMPLOO"
     title: "Samurai Champloo"
     medium: "anime"
-    overall_score: 9.0
+    overall_score: 9.1
     axiom_links:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 1.0
@@ -152,7 +152,7 @@ titles:
   - id: "T-JOJO-P2"
     title: "JoJo's Bizarre Adventure (Part 2)"
     medium: "anime"
-    overall_score: 9.0
+    overall_score: 9.3
     axiom_links:
       - axiom_id: "AX-CREATIVE-COMBAT"
         match_strength: 1.0
@@ -172,7 +172,7 @@ titles:
   - id: "T-VINLAND-SAGA"
     title: "Vinland Saga"
     medium: "anime"
-    overall_score: 7.5
+    overall_score: 8.7
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 0.6
@@ -182,7 +182,7 @@ titles:
   - id: "T-CYBERPUNK-EDGERUNNERS"
     title: "Cyberpunk: Edgerunners"
     medium: "anime"
-    overall_score: 7.0
+    overall_score: 7.5
     axiom_links:
       - axiom_id: "AX-FORCED-MELO"
         match_strength: 0.5
@@ -192,7 +192,7 @@ titles:
   - id: "T-ODD-TAXI"
     title: "Odd Taxi"
     medium: "anime"
-    overall_score: 7.0
+    overall_score: 7.4
     axiom_links:
       - axiom_id: "AX-ARTIFICIAL-MYSTERY"
         match_strength: 1.0
@@ -213,7 +213,7 @@ titles:
   - id: "T-FRIEREN"
     title: "Frieren"
     medium: "anime"
-    overall_score: 7.0
+    overall_score: 7.7
     axiom_links:
       - axiom_id: "AX-FORCED-MELO"
         match_strength: 0.3
@@ -243,7 +243,7 @@ titles:
   - id: "T-1923"
     title: "1923"
     medium: "series"
-    overall_score: 9.0
+    overall_score: 9.4
     axiom_links:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 1.0
@@ -253,7 +253,7 @@ titles:
   - id: "T-TED-LASSO"
     title: "Ted Lasso"
     medium: "series"
-    overall_score: 8.5
+    overall_score: 8.6
     axiom_links:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 0.9
@@ -263,7 +263,7 @@ titles:
   - id: "T-SHRINKING"
     title: "Зменшення (Shrinking)"
     medium: "series"
-    overall_score: 7.5
+    overall_score: 7.7
     axiom_links:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 0.8
@@ -274,7 +274,7 @@ titles:
   - id: "T-ALGERNON"
     title: "Квіти для Елджернона"
     medium: "book"
-    overall_score: 9.5
+    overall_score: 9.6
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 1.0
@@ -284,7 +284,7 @@ titles:
   - id: "T-FIVE-LITTLE-PIGS"
     title: "П'ятеро поросят (Агата Крісті)"
     medium: "audiobook"
-    overall_score: 9.0
+    overall_score: 9.1
     axiom_links:
       - axiom_id: "AX-INTELLECT-STRAT"
         match_strength: 0.9
@@ -308,7 +308,7 @@ titles:
   - id: "T-ICELANDIC-NOIR"
     title: "Біла смерть / Білий спокій (Ісландські детективи)"
     medium: "audiobook"
-    overall_score: 6.5
+    overall_score: 7.4
     axiom_links:
       - axiom_id: "AX-INTELLECT-STRAT"
         match_strength: -0.6
