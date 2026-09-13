@@ -84,6 +84,16 @@ core_axioms:
     exemplars_negative: []
     status: "active"
 
+  - id: "AX-EPISODIC-NO-ANCHOR"
+    label: "Епізодичність без наскрізного якоря"
+    polarity: "hate"
+    intensity: -0.6
+    domain: ["plot_structure", "character_writing"]
+    description: "Структура 'кожна серія — окрема історія' без наскрізного персонажа чи арки, що триває через увесь тайтл, систематично не тримає увагу — навіть при гарній атмосфері чи концепції."
+    exemplars_positive: []
+    exemplars_negative: ["T-DEATH-PARADE", "T-APOTHECARY-DIARIES-S2-S3", "T-MUSHISHI"]
+    status: "active"
+
 titles:
   - id: "T-STEINS-GATE"
     title: "Steins;Gate"
@@ -400,6 +410,9 @@ titles:
       - axiom_id: "AX-ORGANIC-CHARS"
         match_strength: 0.3
         scope: "narrowed_scope"
+      - axiom_id: "AX-EPISODIC-NO-ANCHOR"
+        match_strength: 0.6
+        scope: "single_episode_mysteries"
     contradiction_flag: false
     verdict_note: "Звузилося до окремих справ на серію без ширшої картини світу — можливо, тайтл такого типу, що заходить лише один раз."
   - id: "T-BARTENDER"
@@ -476,6 +489,9 @@ titles:
       - axiom_id: "AX-FORCED-MELO"
         match_strength: 0.4
         scope: "overall_tone"
+      - axiom_id: "AX-EPISODIC-NO-ANCHOR"
+        match_strength: 0.5
+        scope: "case_of_the_week_structure"
     contradiction_flag: false
     verdict_note: "Класна задумка — демонстрація 'смертників' на піку емоцій через трьох живих персонажів, але концентрація на емоціях не завжди повністю вдається, є помірна награність. Тайтл не надто запам'ятався."
   - id: "T-KAIJI"
@@ -494,6 +510,20 @@ titles:
         scope: "forced_genius_moments_paper_fold_and_ear_watch"
     contradiction_flag: false
     verdict_note: "Тактичні ігри на початку (камінь-ножиці-папір, імператор проти раба) — помірний плюс, гарна інтелектуальна напруга. Мінус — награні 'геніальні' сюжетні рішення (директор непомітно згинає папірець, вухо вирване замість того щоб просто зняти годинник) відчуваються як штучні прийоми заради ефекту. Головний герой місцями тупить, але це сприймається реалістично. Дуже темна й неприємна атмосфера через жорстокість організаторів ігор (схоже на Гру в кальмара) робила перегляд некомфортним. 2 сезон і фільм дивитись не буде — немає української озвучки і занадто похмуро."
+  - id: "T-MUSHISHI"
+    title: "Mushishi"
+    medium: "anime"
+    overall_score: 6.3
+    axiom_links:
+      - axiom_id: "AX-EPISODIC-NO-ANCHOR"
+        match_strength: 0.9
+        scope: "case_of_the_week_structure"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: -0.5
+        scope: "protagonist_ginko"
+    contradiction_flag: false
+    verdict_note: "Дроп на 10 серії. Гінко — пасивний спостерігач без власної наскрізної арки, тому нецікавий сам по собі. Ні історія, ні всесвіт, ні персонаж не зачепили. Третє підтвердження патерну: епізодична структура без наскрізного персонажа систематично не заходить (поруч з Death Parade, Apothecary S2-3)."
+
 
 
 
