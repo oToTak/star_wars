@@ -478,6 +478,23 @@ titles:
         scope: "overall_tone"
     contradiction_flag: false
     verdict_note: "Класна задумка — демонстрація 'смертників' на піку емоцій через трьох живих персонажів, але концентрація на емоціях не завжди повністю вдається, є помірна награність. Тайтл не надто запам'ятався."
+  - id: "T-KAIJI"
+    title: "Kaiji"
+    medium: "anime"
+    overall_score: 7.2
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.6
+        scope: "opening_games_rps_and_emperor_slave"
+      - axiom_id: "AX-CREATIVE-COMBAT"
+        match_strength: 0.6
+        scope: "opening_games_rps_and_emperor_slave"
+      - axiom_id: "AX-ARTIFICIAL-MYSTERY"
+        match_strength: 0.6
+        scope: "forced_genius_moments_paper_fold_and_ear_watch"
+    contradiction_flag: false
+    verdict_note: "Тактичні ігри на початку (камінь-ножиці-папір, імператор проти раба) — помірний плюс, гарна інтелектуальна напруга. Мінус — награні 'геніальні' сюжетні рішення (директор непомітно згинає папірець, вухо вирване замість того щоб просто зняти годинник) відчуваються як штучні прийоми заради ефекту. Головний герой місцями тупить, але це сприймається реалістично. Дуже темна й неприємна атмосфера через жорстокість організаторів ігор (схоже на Гру в кальмара) робила перегляд некомфортним. 2 сезон і фільм дивитись не буде — немає української озвучки і занадто похмуро."
+
 
 
 evolution_log: []
