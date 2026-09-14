@@ -659,6 +659,20 @@ titles:
     axiom_links: []
     contradiction_flag: false
     verdict_note: "Дивився всі сезони, плюс-мінус слідкує за виходом нових. Перші сезони прям заходили — памʼятає момент з Орлом (Birdperson). Серіал вивозить на дуже креативному світі й хайпових жартах, подекуди можна вловити доволі глибокий наскрізний сюжет, хоч сприймається переважно як односерійка. Останні 1-2 сезони здались дивними, якість трохи просіла. Дивиться в українському перекладі AdrianZP (озвучує й Funbox інколи) — його озвучка хайпова, плюс-мінус стежить за тайтлами в його перекладі."
+  - id: "T-SQUID-GAME"
+    title: "Squid Game"
+    medium: "series"
+    overall_score: 7.2
+    axiom_links:
+      - axiom_id: "AX-INTELLECT-STRAT"
+        match_strength: 0.6
+        scope: "survival_games"
+      - axiom_id: "AX-CREATIVE-COMBAT"
+        match_strength: 0.6
+        scope: "survival_games"
+    contradiction_flag: false
+    verdict_note: "По суті той самий твіст і формула, що й у Kaiji — виживання через смертельні ігри зі ставками — тому оцінка навмисно та сама, 7.2, з тими самими аксіомами й приблизно тим самим ступенем метчу."
+
 
 
 
