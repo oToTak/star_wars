@@ -523,6 +523,20 @@ titles:
         scope: "protagonist_ginko"
     contradiction_flag: false
     verdict_note: "Дроп на 10 серії. Гінко — пасивний спостерігач без власної наскрізної арки, тому нецікавий сам по собі. Ні історія, ні всесвіт, ні персонаж не зачепили. Третє підтвердження патерну: епізодична структура без наскрізного персонажа систематично не заходить (поруч з Death Parade, Apothecary S2-3)."
+  - id: "T-YOUR-LIE-IN-APRIL"
+    title: "Your Lie in April"
+    medium: "anime"
+    overall_score: 8.7
+    axiom_links:
+      - axiom_id: "AX-PSYCH-DEPTH"
+        match_strength: 0.75
+        scope: "main_character_trauma"
+      - axiom_id: "AX-ORGANIC-CHARS"
+        match_strength: 0.6
+        scope: "flashback_structure_and_performances"
+    contradiction_flag: false
+    verdict_note: "Блокування таланту через травму (піаніст після смерті матері) відчувається органічно, без награвання. Невимушена романтична лінія, фінал сумний, але не маніпулятивний."
+
 
 
 
