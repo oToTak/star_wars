@@ -599,7 +599,7 @@ titles:
   - id: "T-CHAINSAW-MAN-S1"
     title: "Chainsaw Man (Season 1)"
     medium: "anime"
-    overall_score: 8.4
+    overall_score: 8.8
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 0.3
@@ -610,7 +610,7 @@ titles:
   - id: "T-CHAINSAW-MAN-REZE-ARC"
     title: "Chainsaw Man – The Movie: Reze Arc"
     medium: "film"
-    overall_score: 8.9
+    overall_score: 9.3
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 0.5
