@@ -1,6 +1,8 @@
+import re
 import sys
 
-def insert_title(yaml_path, block_path):
+
+def insert_title(yaml_path, block_path, not_watched_path=None):
     with open(yaml_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -27,5 +29,50 @@ def insert_title(yaml_path, block_path):
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
+    if not_watched_path:
+        remove_watched_titles(not_watched_path, block)
+
+
+def _normalize(s):
+    return re.sub(r"[^a-zа-яіїєґ0-9]+", "", s.lower())
+
+
+def remove_watched_titles(not_watched_path, block):
+    titles = re.findall(r'title:\s*"([^"]+)"', block)
+    if not titles:
+        return
+
+    try:
+        with open(not_watched_path, "r", encoding="utf-8") as f:
+            md_lines = f.readlines()
+    except FileNotFoundError:
+        return
+
+    norm_titles = [_normalize(t) for t in titles]
+
+    removed = []
+    kept_lines = []
+    for line in md_lines:
+        stripped = line.strip()
+        if stripped.startswith("- "):
+            item = stripped[2:].strip()
+            norm_item = _normalize(item)
+            match = norm_item and any(
+                norm_item in nt or nt in norm_item for nt in norm_titles
+            )
+            if match:
+                removed.append(item)
+                continue
+        kept_lines.append(line)
+
+    if removed:
+        with open(not_watched_path, "w", encoding="utf-8") as f:
+            f.writelines(kept_lines)
+        print("Removed from not_watched_yet.md: " + ", ".join(removed))
+
+
 if __name__ == "__main__":
-    insert_title(sys.argv[1], sys.argv[2])
+    yaml_arg = sys.argv[1]
+    block_arg = sys.argv[2]
+    not_watched_arg = sys.argv[3] if len(sys.argv) > 3 else None
+    insert_title(yaml_arg, block_arg, not_watched_arg)
