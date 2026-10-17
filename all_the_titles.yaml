@@ -110,7 +110,7 @@ titles:
   - id: "T-MONSTER"
     title: "Monster"
     medium: "anime"
-    overall_score: 9.9
+    overall_score: 9.7
     axiom_links:
       - axiom_id: "AX-PSYCH-DEPTH"
         match_strength: 1.0
